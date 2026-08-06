@@ -1,0 +1,12 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/*.{css,js,png,jpg,jpeg,gif,webp,svg,ico,woff,woff2,ttf,eot,map}"]
+  },
+  "routes": [
+    { "route": "/clients", "rewrite": "/clients.html" },
+    { "route": "/faqs", "rewrite": "/faqs.html" },
+    { "route": "/terms-conditions", "rewrite": "/terms-conditions.html" },
+    { "route": "/whatsapp-business-pricing", "rewrite": "/whatsapp-business-pricing.html" }
+  ]
+}

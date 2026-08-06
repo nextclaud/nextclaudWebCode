@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta name="google-site-verification" content="XYE66nvfZyaUKEuB-nyVQ64r2xEQULvuphqIubrG03c" />
+
+    <link rel="dns-prefetch preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="dns-prefetch preconnect" href="https://connect.facebook.net" crossorigin>
+    <link rel="dns-prefetch preconnect" href="https://www.reviewplc.com" crossorigin>
+
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://connect.facebook.net">
+    <link rel="preconnect" href="https://www.reviewplc.com/">
+
+
+    <link rel="preload" href="assets/images/rightclick-sms-logo.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="assets/images/whatsapp-icon.webp" as="image" fetchpriority="high" media="(max-width: 768px)" />
+
+
+    <link rel="preload" href="assets/images/webp/top-img.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="assets/images/webp/MBP-Badge-Dark-backgrounds@4x.webp" as="image" fetchpriority="high" />
+
+
+
+    <link rel="preload" href="" as="script" crossorigin>
+    <!-- <link rel="preload" href="https://connect.facebook.net/en_US/fbevents.js" as="script" crossorigin> -->
+
+    <link rel="preload" href="" as="script">
+    <!-- <link rel="preload" href="https://connect.facebook.net/en_US/fbevents.js" as="script"> -->
+
+
+    <!-- <link rel="preload" href="assets/fonts/fonts.slim.min.css" as="style" crossorigin>
+        <link rel="preload" href="assets/fonts/fonts.slim.min.css" as="style">
+        <link rel="preload" href="assets/fontawesome/css/all.slim.min.css" as="style" crossorigin>
+        <link rel="preload" href="assets/fontawesome/css/all.slim.min.css" as="style"> -->
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="title" content="">
+
+    <meta name="description" content="">
+
+    <meta name="keywords" content="">
+
+    <meta name="author" content="">
+
+    <meta name="facebook-domain-verification" content="5vm2jk22be027qeb9snlxp3ij41wt7" />
+
+    <!-- Mobile Metas -->
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <!-- Site Metas -->
+
+    <title></title>
+
+
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
+
+    <!-- <link rel="stylesheet" href="assets/fontawesome/css/all.slim.min.css"/> -->
+
+    <!-- <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.min.css"/> -->
+    <!-- <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css"/> -->
+
+    <!-- <link rel="stylesheet" href="assets/fonts/fonts.slim.min.css" /> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/styles.slim.min.css" /> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/responsive.slim.min.css" /> -->
+
+    <link rel="stylesheet" href="assets/css/combined.slim.min.css?v=10" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="">
+
+    <!-- <script src="https://cdn.ckeditor.com/4.20.1/standard/ckeditor.js"></script> -->
+    <!-- <script src="assets/js/jquery-3.7.1.min.js"></script> -->
+
+    <!-- <script src="assets/js/ckeditor.js"></script> -->
+
+    <div id="newnavbar" class="newnavbar">
+        <div class="container">
+            <div class="top-bar">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-left">
+                        <a href="tel:+923317773847" id="Gads-phone-click">
+                            <div class="top-contact-single text-md-left number d-inline-flex align-items-center mb-1">
+                                <div class="top-icon-cont mr-3 mr-xs-2 mr-sm-2"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                <div>
+                                    <!-- <p class="mb-0">Speak to one of our team on:</p> -->
+                                    <h6 class="mb-0">+92 331 7773 847</h6>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="tel:+923074566604" id="Gads-phone-click">
+                            <div class="top-contact-single text-md-left number d-inline-flex align-items-center">
+                                <div class="top-icon-cont mr-3 mr-xs-2 mr-sm-2"><i class="fa fa-mobile-alt" aria-hidden="true"></i></div>
+                                <div>
+                                    <!-- <p class="mb-0">Speak to one of our team on:</p> -->
+                                    <h6 class="mb-0">+92 307 4566 604</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-4 text-center text-sm-center d-none d-md-block">
+                        <a class="navbar-brand mr-0" href="https://rightclicksms.com/">
+                            <img loading="eager" width="200px" height="52px" alt="Right Click SMS" class="img-fluid" src="assets/images/rightclick-sms-logo.webp">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-right">
+                        <a href="mailto:info@rightclicksms.com" id="Gads-email-click">
+                            <div class="top-contact-single d-inline-flex align-items-center">
+                                <div class="top-icon-cont mr-3 mr-xs-2 mr-sm-2"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <div>
+                                    <p class="mb-0">Email Us:</p>
+                                    <h6 class="mb-0">info@rightclicksms.com</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-none d-xs-block my-2">
+            <div class="d-none d-md-none d-lg-none d-xl-none d-sm-block d-xs-block">
+                <div class="row align-items-center">
+                    <div class="col-sm-3 col-xs-3">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 text-center text-sm-center">
+                        <a class="navbar-brand mr-0" href="https://rightclicksms.com/">
+                            <img loading="eager" width="170px" height="44px" alt="Right Click SMS" class="img-fluid" src="assets/images/rightclick-sms-logo.webp">
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-xs-3 text-right">
+                        <a href="https://wa.me/923074566604?text=Hello%2C%20I%20need%20help">
+                            <img loading="eager" width="35px" height="35px" alt="RightClick Whatsapp" class="img-fluid" src="assets/images/whatsapp-icon.webp">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="banner" class="pages-header banner">
+            <div class="container">
+                <div class="row align-items-center flex-sm-xs-column-reverse">
+                    <div class="col-md-7 text-sm-xs-center text-xs-center my-2">
+                        <h1 class="sec-title text-white">All efficient ways to manage your WhatsApp conversations and contacts</h1>
+                        <p class="text-white">Collaborate, automate and scale your WhatsApp conversations</p>
+                        <div class="top-btns">
+                            <a href="whatsapp-business-pricing" class="btn pricing btn-trans mx-1">Pricing
+                      </a>
+                            <a href="https://api.whatsapp.com/send/?phone=923074566604&amp;text=I%20want%20to%20have%20a%20demo&amp;app_absent=0" class="btn btn-primary book-demo mx-1" target="_blank">Book a Demo</a>
+                        </div>
+                        <div class="mt-3 text-left text-sm-xs-center text-xs-center">
+                            <img loading="eager" src="assets/images/webp/MBP-Badge-Dark-backgrounds@4x.webp" alt="Meta Partner" style="width:100px;">
+                        </div>
+                    </div>
+                    <div class="col-md-5 my-2 text-xl-right text-lg-right text-md-right text-center">
+                        <img loading="eager" class="container-fluid" src="assets/images/webp/top-img.webp" alt="WhatsApp Business API In Pakistan">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="pb-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12 text-center my-2 mb-5">
+                        <div class="bottom-style-bar small">
+                            <h2 class="sec-title">Features</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/pipeline.webp" alt="Pipeline">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Pipeline</h6>
+                                        </div>
+                                        <p class="sub-head">Harness the power of AI within WhatsApp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/chat.webp" alt="Chat">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Shared Inbox</h6>
+                                        </div>
+                                        <p class="sub-head">Reach customer on their preferred messaging channel</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/message.webp" alt="Message">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Broadcasting</h6>
+                                        </div>
+                                        <p class="sub-head">Collaborate with team members effectivly</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/roboto.webp" alt="Roboto">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Chatbot</h6>
+                                        </div>
+                                        <p class="sub-head">Scale customer experiences,not your team size</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/automessage.webp" alt="Automessage">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Automated Messages</h6>
+                                        </div>
+                                        <p class="sub-head">Send sequence of messages at intervals on WhatsApp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/sequence.webp" alt="Sequence">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Sequence</h6>
+                                        </div>
+                                        <p class="sub-head">Launch Marketing campaigns at scale</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/form.webp" alt="Form">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Forms/Flows</h6>
+                                        </div>
+                                        <p class="sub-head">Convert leads to deals using CTWA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/store-alt.webp" alt="Store Alt">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Catalog Ordering</h6>
+                                        </div>
+                                        <p class="sub-head">Automate payment collections on WhatsApp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/calendar-day.webp" alt="Calender Day">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Appointment Bookings</h6>
+                                        </div>
+                                        <p class="sub-head">Setup product catalogs and start selling on WhatsApp in no time</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-1-5 text-center my-2">
+                                <div class="feature-box equal-height">
+                                    <div class="icon-box mb-4 mx-auto">
+                                        <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/phone-call.webp" alt="Phone Call">
+                                    </div>
+                                    <div>
+                                        <div class="bottom-grey-bar small text-center">
+                                            <h6 class="head mb-0">Calls Tracking</h6>
+                                        </div>
+                                        <p class="sub-head">Setup product catalogs and start selling on WhatsApp in no time</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-0">
+            <div class="container">
+                <div class="row align-items-center flex-sm-xs-column-reverse">
+                    <div class="col-md-6 text-sm-xs-center text-xs-center my-2">
+                        <div class="bottom-style-bar">
+                            <h2 class="sec-title">25+ App Integrations at one place</h2>
+                        </div>
+                        <p>Automate your notification, alerts, and nurturing messages. Send appointment reminders, feedback requests, ecommerce order alerts, lead qualification, nurturing & promotion to your customers.</p>
+                        <div class="top-btns">
+                            <a href="https://whatsapp.nextlogics.net/Profile/signuppage" class="btn btn-primary book-demo mx-1" target="_blank">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-2 text-xl-right text-lg-right text-md-right text-center">
+                        <img class="container-fluid" src="assets/images/webp/apps.webp" alt="Apps">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center my-2">
+                        <div class="bottom-style-bar">
+                            <h2 class="sec-title">Explore our tools</h2>
+                        </div>
+                        <p>Drive Marketing, Sales & Support interactions on the World's most popular social platforms</p>
+                        <div class="mb-4">
+                            <a href="https://api.whatsapp.com/send/?phone=923074566604&amp;text=I%20want%20to%20have%20a%20demo&amp;app_absent=0" target="_blank">Book a Demo</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 my-2">
+                        <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
+                            <div class="bottom-style-bar small">
+                                <h3 class="sec-title-small">Unify customer data</h3>
+                            </div>
+                            <p>Get all your leads and customers data from phone calls, website, lead platforms at one place</p>
+                            <div class="count-img mt-2">
+                                <img class="img-fluid" src="assets/images/webp/big_image.webp" alt="Unify Customer Dataine">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-2">
+                        <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
+                            <div class="bottom-style-bar small">
+                                <h3 class="sec-title-small">Trigger-based engagement</h3>
+                            </div>
+                            <p>Create automated campaigns that can be triggered on text, date, time, number and more.</p>
+                            <div class="count-img mt-2">
+                                <img class="img-fluid" src="assets/images/webp/2nd_image.webp" alt="Trigger Based Engagement">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 my-2">
+                        <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
+                            <div class="bottom-style-bar small">
+                                <h3 class="sec-title-small">No-code Chatbot builder</h3>
+                            </div>
+                            <p>Create a seamless interactive Chat flow for your users on WhatsApp</p>
+                            <div class="count-img mt-2">
+                                <img class="img-fluid" src="assets/images/webp/3rd_image.webp" alt="No-Code Chatbot Builder">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 my-2">
+                        <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
+                            <div class="bottom-style-bar small">
+                                <h3 class="sec-title-small">Shared chat inbox</h3>
+                            </div>
+                            <p>Collaborate with colleagues and keep on top of your workload</p>
+                            <div class="count-img mt-2">
+                                <img class="img-fluid" src="assets/images/webp/4th_image.webp" alt="Shared Chat Inbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 my-2">
+                        <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
+                            <div class="bottom-style-bar small">
+                                <h3 class="sec-title-small">Powerful Insights</h3>
+                            </div>
+                            <p>Get actionable insights on your team performance, customer interactions, promotional campaigns</p>
+                            <div class="count-img mt-2">
+                                <img class="img-fluid" src="assets/images/webp/6th_image.webp" alt="Powerful Insights">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-0">
+            <div class="container">
+                <div class="row align-items-center flex-sm-xs-column-reverse">
+                    <div class="col-md-6 text-sm-xs-center text-xs-center my-2">
+                        <div class="bottom-style-bar">
+                            <h2 class="sec-title">Ready modules to save your cost</h2>
+                        </div>
+                        <p>Save your money by using ready to use modules to book appointments, e-commerce catalog ordering and find nearby stores finder.</p>
+                    </div>
+                    <div class="col-md-6 my-2 text-xl-right text-lg-right text-md-right text-center">
+                        <img class="container-fluid" src="assets/images/webp/modules.webp" alt="Modules">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-0">
+            <div class="container">
+                <div class="gradient-bg round-bg p-4">
+                    <div class="row align-items-center flex-sm-xs-column-reverse">
+                        <div class="col-md-6 text-sm-xs-center text-xs-center my-2">
+                            <div class="px-5">
+                                <div class="bottom-style-bar small mb-4">
+                                    <h2 class="sec-title">Start making the most of WhatsApp !</h2>
+                                </div>
+                                <div>
+                                    <a href="https://api.whatsapp.com/send/?phone=923074566604&amp;text=I%20want%20to%20have%20a%20demo&amp;app_absent=0" class="btn btn-primary book-demo mx-1" target="_blank">Book a Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 text-xl-right text-lg-right text-md-right text-center">
+                            <img class="container-fluid" src="assets/images/webp/mockup.webp" alt="Mockup">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients-section pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="below-bar">
+                            <h3 class="grey-text">We're trusted by thousands of companies, including</h3>
+                        </div>
+                        <div class="image-grid mt-3">
+                            <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/iac-logo.webp" alt="Institute for Art & Culture">
+                            <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/cougar-logo.webp" alt="Cougar Brand">
+                            <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/charcoal-logo.webp" alt="Charcoal Brand">
+                            <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/hanif-logo.webp" alt="Hanif Jewellers">
+                            <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/chenone-logo.webp" alt="ChenOne Brand">
+                        </div>
+                        <div class="inner-section text-center mt-3">
+                            <a class="text-decoration-underline" href="https://rightclicksms.com/clients">View All Clients</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-12">
+                        <img loading="lazy" src="assets/images/branded-sms-marketing-img.webp" alt="Branded SMS Marketing In Pakistan">
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12">
+                        <div class="faqs-cont bg-grey px-3 py-xl-3 py-lg-3 pt-md-0 pt-xs-3 pb-md-4 h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-3 h-100 py-2">
+                                    <div class="d-flex flex-column justify-content-between align-items-center h-100">
+                                        <div>
+                                            <h3 class="text-xl-right text-lg-right text-md-left text-sm-center">Answers <br>to <br>question <br>you <br>may <br>have...</h3>
+                                        </div>
+                                        <div><a class="text-decoration-underline" href="https://rightclicksms.com/faqs">View all our FAQs</a></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 pl-0 px-sm-3 px-xs-3">
+                                    <div class="vertical-simple-bar">
+                                        <div class="indexfaqs" id="indexfaqs">
+                                            <div class="features-main is-active">
+                                                <div class="features-main-title">
+                                                    <h6 class="mb-0">What are some of the benefits of using the SMS API?</h6>
+                                                    <div class="faq-btns">
+                                                        <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                        <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                    </div>
+                                                </div>
+                                                <!-- end toggle-title --->
+                                                <div class="features-main-content">
+                                                    <p>Send messages automatically from your system (CRM, ERP, e-commerce platform).</p>
+                                                    <p>No manual intervention needed for sending OTPs, alerts, or notifications.</p>
+                                                    <p>Reduces human error and saves time.</p>
+                                                    <p class="mb-0">Example: Automatically send an order confirmation SMS immediately after a customer places an order.</p>
+                                                </div>
+                                                <!-- end section-toggle-->
+                                            </div>
+                                            <div class="features-main">
+                                                <div class="features-main-title">
+                                                    <h6 class="mb-0">What is API?</h6>
+                                                    <div class="faq-btns">
+                                                        <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                        <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                    </div>
+                                                </div>
+                                                <!-- end toggle-title --->
+                                                <div class="features-main-content">
+                                                    <p>An API (Application Programming Interface) is a set of rules and protocols that allows one software application to communicate and interact with another. Think of it as a messenger or bridge between
+                                                        two programs.</p>
+                                                </div>
+                                                <!-- end section-toggle-->
+                                            </div>
+                                            <div class="features-main">
+                                                <div class="features-main-title">
+                                                    <h6 class="mb-0">What Platforms are supported?</h6>
+                                                    <div class="faq-btns">
+                                                        <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                        <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                    </div>
+                                                </div>
+                                                <!-- end toggle-title --->
+                                                <div class="features-main-content">
+                                                    <p>Browser-based dashboards for managing campaigns and monitoring analytics</p>
+                                                    <p><b>Supported On:</b></p>
+                                                    <p>Chrome, Firefox, Edge, Safari</p>
+                                                    <p><b>Features:</b></p>
+                                                    <p>Sending SMS, WhatsApp messages, emails</p>
+                                                    <p>Scheduling campaigns</p>
+                                                    <p>Viewing reports</p>
+                                                    <p class="mb-0">Managing contacts and templates</p>
+                                                </div>
+                                                <!-- end section-toggle-->
+                                            </div>
+
+                                            <div class="features-main">
+                                                <div class="features-main-title">
+                                                    <h6 class="mb-0">How much does it cost to send an SMS?</h6>
+                                                    <div class="faq-btns">
+                                                        <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                        <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                    </div>
+                                                </div>
+                                                <!-- end toggle-title --->
+                                                <div class="features-main-content">
+                                                    <p>The cost of sending an SMS varies depending on the service provider and your chosen plan. Charges may be per message, bundled in a package, or included in subscription plans.</p>
+                                                </div>
+                                                <!-- end section-toggle-->
+                                            </div>
+
+                                            <div class="features-main">
+                                                <div class="features-main-title">
+                                                    <h6 class="mb-0">How do I buy SMS credits?</h6>
+                                                    <div class="faq-btns">
+                                                        <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                        <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
+                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#F14119"></path>
+                                        </svg></span>
+                                                    </div>
+                                                </div>
+                                                <!-- end toggle-title --->
+                                                <div class="features-main-content">
+                                                    <p><b>After logging in:</b></p>
+                                                    <p>Find "Buy Credits", "Top Up", or "Billing" in the dashboard.</p>
+                                                    <p class="mb-0">Choose how many SMS credits you want to buy</p>
+                                                </div>
+                                                <!-- end section-toggle-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="reviews-inner pb-5">
+            <!-- <script defer src="https://www.reviewplc.com/dashboard1/integrationjs/js/integarioncarouselblack.js"></script> -->
+            <div id="integrationcarouselblack" templateid="6" client_id="263"></div>
+        </div>
+    </main>
+    <section class="footer-top footer-top-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-sm-6 col-xs-8 mb-3">
+                            <img loading="lazy" class="m-auto img-fluid" src="assets/images/rightclick-sms-logo-w.webp" alt="RightClick SMS">
+                        </div>
+                    </div>
+                    <p class="text-white mb-4">Right Click SMS was founded with the goal of providing an easy-to-use Branded SMS Software platform. We are a young and ambitious team that is constantly expanding our service.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                    <div class="footer-heading-bar">
+                        <h4 class="mb-0">A Project Of</h4>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-10 col-sm-8 col-xs-10">
+                            <img loading="lazy" width="135px" height="65px" class="img-fluid" src="assets/images/nextlogics-logo.webp" alt="NextLogics">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                    <div class="footer-heading-bar">
+                        <h4 class="mb-0">Registered</h4>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
+                            <img loading="lazy" width="73px" height="83px" class="img-fluid" src="assets/images/secp-logo.webp" alt="SECP">
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-6">
+                            <img loading="lazy" width="87px" height="59px" class="img-fluid" src="assets/images/pakistan-telecommunication-authority.webp" alt="PTA">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                    <div class="footer-heading-bar">
+                        <h4 class="mb-0">Review by:</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-xs-12">
+                            <img width="132px" height="78px" loading="lazy" class="img-fluid" src="assets/images/review-by-tick-circle.webp" alt="Reviews By TickCircle">
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <img width="78px" height="78px" loading="lazy" class="img-fluid" src="assets/images/tick-circle-gold-member.webp" alt="TickCircle Gold Member">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                    <div class="footer-heading-bar">
+                        <h4 class="mb-0">Get In Touch</h4>
+                    </div>
+                    <div class="mt-3">
+                        <div class="single-contact d-flex">
+                            <div class="mr-3"><i class="fas fa-location-dot"></i></div>
+                            <div>
+                                <p class="mb-2">Suit #114, 1st Floor Siddiq Trade Center Lahore.</p>
+                            </div>
+                        </div>
+
+                        <a href="tel:+923317773847" id="Gads-phone-click">
+                            <div class="single-contact d-flex">
+                                <div class="mr-3"><i class="fas fa-phone"></i></div>
+                                <div>
+                                    <p class="mb-2">+92 331 7773 847</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="tel:+923074566604" id="Gads-phone-click">
+                            <div class="single-contact d-flex">
+                                <div class="mr-3"><i class="fa fa-mobile-alt"></i></div>
+                                <div>
+                                    <p class="mb-2">+92 307 4566 604</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="mailto:info@rightclicksms.com" id="Gads-email-click">
+                            <div class="single-contact d-flex">
+                                <div class="mr-3"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <p class="mb-2">info@rightclicksms.com</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mt-2">
+                        <ul class="d-flex list-unstyled flex-wrap footer-social">
+                            <li><a href="https://www.facebook.com/rightclicksms/" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/rightclicksms/" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.pinterest.com/rightclicksms/" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+                            <li><a href="https://www.youtube.com/@rightclicksms/" aria-label="Youtube"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-2 text-xl-left text-lg-left text-md-left text-sm-center text-xs-center">
+                                <p class="mb-0">Copyright © 2025, Right Click SMS. All Rights Reserved.</p>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-2 text-xl-right text-lg-right text-md-right text-sm-center text-xs-center">
+                                <div class="footer-links text-xl-right text-lg-right text-md-right text-sm-center text-xs-center">
+                                    <p class="mb-0"><a href="faqs">Faqs</a> | <a href="terms-conditions">Terms & Condition</a> | <a href="sender-id-request/">Sender ID Request</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="fixed-social-icons">
+        <a href="https://www.facebook.com/rightclicksms/">
+            <div class="social-icon"><img loading="eager" width="46px" height="58px" class="img-fluid" src="assets/images/social/fixed-facebook-icon.webp" alt="Facebook Link"></div>
+        </a>
+
+        <a href="https://www.youtube.com/@rightclicksms/">
+            <div class="social-icon"><img loading="eager" width="46px" height="58px" class="img-fluid" src="assets/images/social/fixed-youtube-icon.webp" alt="Youtube Link"></div>
+        </a>
+
+        <a href="https://www.pinterest.com/rightclicksms/">
+            <div class="social-icon"><img loading="eager" width="46px" height="58px" class="img-fluid" src="assets/images/social/fixed-pinterest-icon.webp" alt="Pinterest Link"></div>
+        </a>
+
+        <a href="https://www.instagram.com/rightclicksms/">
+            <div class="social-icon"><img loading="eager" width="46px" height="58px" class="img-fluid" src="assets/images/social/fixed-instagram-icon.webp" alt="Instagram Link"></div>
+        </a>
+    </div>
+
+
+    <div class="fixed-contact-icons">
+        <a href="https://wa.me/923074566604?text=Hello%2C%20I%20need%20help" class="Whatsapp">
+            <div class="fixed-contact-icon-cont"><i class="fab fa-whatsapp"></i>Whatsapp</div>
+        </a>
+    </div>
+
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- <script src="assets/js/ckeditor.js"></script> -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/scroll-navbar.js"></script>
+
+    <script src="assets/js/script-combined.min.js"></script>
+
+    </body>
+
+</html>
