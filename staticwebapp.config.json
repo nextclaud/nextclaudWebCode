@@ -6,7 +6,10 @@
   "routes": [
     { "route": "/clients", "rewrite": "/clients.html" },
     { "route": "/faqs", "rewrite": "/faqs.html" },
-    { "route": "/terms-conditions", "rewrite": "/terms-conditions.html" },
+    { "route": "/terms-and-conditions", "rewrite": "/terms-and-conditions.html" },
+    { "route": "/privacy-policy", "rewrite": "/privacy-policy.html" },
+    { "route": "/terms-conditions", "redirect": "/terms-and-conditions", "statusCode": 301 },
+    { "route": "/terms-conditions.html", "redirect": "/terms-and-conditions.html", "statusCode": 301 },
     { "route": "/whatsapp-business-pricing", "rewrite": "/whatsapp-business-pricing.html" }
   ]
 }
