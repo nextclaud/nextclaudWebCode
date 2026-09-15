@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing — NextClaud</title>
+  <meta name="description" content="Fair, transparent NextClaud pricing. Platform subscription plans with no markup on Meta WhatsApp fees. Start with a 14-day free trial.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="NextClaud home">
+        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="32" width="111">
+      </a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html" class="active">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="https://app.nextclaud.com/login">Log in</a>
+        <a class="btn btn-primary" href="contact.html">Book a demo</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav container" id="mobile-nav">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a><a href="contact.html">Contact</a>
+      <a href="https://app.nextclaud.com/login">Log in</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--with-art">
+      <div class="container">
+        <h1>Fair, transparent pricing</h1>
+        <p class="lead">Zero markup on Meta WhatsApp fees. Your subscription covers the platform — inbox, templates, broadcasts, and API. Meta bills conversations directly to your WABA.</p>
+        <img class="page-hero-art graphic" src="assets/graphics/graphic-pricing.svg" alt="NextClaud pricing plans" width="480" height="200">
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+        <div class="pricing-toggle-wrap">
+          <div class="pricing-toggle" id="pricing-toggle">
+            <button type="button" class="active" data-billing="monthly">Monthly</button>
+            <button type="button" data-billing="annual">Annually</button>
+          </div>
+          <span class="save-badge">Save 20% with annual billing</span>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Trial</h3>
+            <p class="amount"><span data-price-monthly="Free" data-price-annual="Free">Free</span></p>
+            <p class="tagline">14-day trial for new workspaces</p>
+            <ul>
+              <li>500 messages / month</li>
+              <li>1 WhatsApp number</li>
+              <li>Shared inbox</li>
+              <li>Template management</li>
+              <li>Contacts &amp; lists</li>
+              <li>$5 welcome credits</li>
+            </ul>
+            <a class="btn btn-secondary" href="https://app.nextclaud.com/register">Start trial</a>
+          </article>
+
+          <article class="price-card">
+            <h3>Starter</h3>
+            <p class="amount">$<span data-price-monthly="29" data-price-annual="23">29</span> <small>/ mo</small></p>
+            <p class="tagline">Small teams getting started on WhatsApp</p>
+            <ul>
+              <li>2,000 messages / month</li>
+              <li>Up to 3 team members</li>
+              <li>Shared inbox &amp; contacts</li>
+              <li>Template sync &amp; send</li>
+              <li>Email support</li>
+            </ul>
+            <a class="btn btn-secondary" href="https://app.nextclaud.com/register">Get started</a>
+          </article>
+
+          <article class="price-card featured">
+            <span class="price-badge">Most popular</span>
+            <h3>Growth</h3>
+            <p class="amount">$<span data-price-monthly="59" data-price-annual="47">59</span> <small>/ mo</small></p>
+            <p class="tagline">Growing brands with campaigns &amp; API</p>
+            <ul>
+              <li>10,000 messages / month</li>
+              <li>Up to 10 team members</li>
+              <li>Everything in Starter</li>
+              <li>Broadcast campaigns</li>
+              <li>Developer API &amp; webhooks</li>
+              <li>Chatflows &amp; automation</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-primary" href="https://app.nextclaud.com/register">Get started</a>
+          </article>
+
+          <article class="price-card enterprise">
+            <h3>Pro / Enterprise</h3>
+            <p class="amount">Custom</p>
+            <p class="tagline">High-volume senders &amp; agencies</p>
+            <ul>
+              <li>50,000+ messages / month</li>
+              <li>Unlimited users (fair use)</li>
+              <li>Multiple workspaces</li>
+              <li>AI agent add-on</li>
+              <li>Dedicated onboarding</li>
+              <li>SLA &amp; account manager</li>
+            </ul>
+            <a class="btn btn-primary" href="contact.html">Contact sales</a>
+          </article>
+        </div>
+
+        <div class="pricing-trust">
+          <span>🔒 Secure checkout via Stripe</span>
+          <span>✓ Cancel anytime</span>
+          <span>✓ No markup on Meta fees</span>
+          <span>💳 Visa · Mastercard · Amex</span>
+        </div>
+
+        <p class="pricing-note">
+          WhatsApp template messages are charged by Meta per category and country.
+          <a href="https://developers.facebook.com/docs/whatsapp/pricing" target="_blank" rel="noopener">View Meta pricing →</a>
+          · Managed messaging with prepaid buckets available — <a href="contact.html">contact us</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Optional add-ons</h2>
+          <p>Extend your workspace with modular features.</p>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">📣</div>
+            <h3>Broadcast module</h3>
+            <p>Large-scale template campaigns with list management and delivery analytics.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🛒</div>
+            <h3>E-commerce</h3>
+            <p>Shopify and store integrations for order events and customer notifications.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🤖</div>
+            <h3>AI agent</h3>
+            <p>Knowledge-base powered auto-replies for common customer questions.</p>
+          </article>
+        </div>
+        <p style="text-align:center;color:var(--nc-muted);font-size:0.88rem;margin-top:1rem">Add-ons are available from Settings → Billing in your workspace after signup.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>Pricing FAQ</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" type="button">What counts as a "message" on my plan? <span>+</span></button>
+            <div class="faq-answer">Outbound messages sent through NextClaud count toward your monthly plan limit. Meta's separate conversation charges apply to template categories billed to your WhatsApp Business Account.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Can I upgrade or downgrade anytime? <span>+</span></button>
+            <div class="faq-answer">Yes. Upgrade from Settings → Billing via Stripe checkout. Downgrades take effect at the next billing cycle through the Stripe customer portal.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Do you mark up Meta WhatsApp fees? <span>+</span></button>
+            <div class="faq-answer">No. On standard plans, Meta bills your WABA directly at published rates. Managed messaging customers can purchase prepaid message buckets at transparent retail rates.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Is there a setup fee? <span>+</span></button>
+            <div class="faq-answer">No setup fee on self-serve plans. Enterprise customers may include optional paid onboarding for complex integrations.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-band">
+          <h2>Start your 14-day free trial</h2>
+          <p>No credit card required for trial. Connect WhatsApp and send your first template in minutes.</p>
+          <a class="btn btn-primary" href="https://app.nextclaud.com/register">Start free trial</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a href="index.html" class="brand brand--footer" aria-label="NextClaud home">
+        <img src="assets/nextclaud-logo-light.png" alt="NextClaud" class="brand__logo" height="28" width="97">
+      </a>
+      <span class="meta-badge">✓ Meta WhatsApp Business Platform</span>
+    </div>
+    <div class="container footer-grid">
+      <div><p style="font-size:0.88rem;margin:0">Transparent platform pricing. Meta fees billed separately.</p></div>
+      <div><h4>Product</h4><ul><li><a href="services.html">Services</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy-policy.html">Privacy</a></li><li><a href="terms-and-conditions.html">Terms</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:support@nextclaud.com">support@nextclaud.com</a></li><li><a href="tel:+923368527111">+92 336 8527 111</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 NextClaud. All rights reserved.</span></div>
+  </footer>
+  <a class="wa-float" href="https://wa.me/923368527111" target="_blank" rel="noopener">💬 Talk to us</a>
+  <script src="script.js"></script>
+</body>
+</html>

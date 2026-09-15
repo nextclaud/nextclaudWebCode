@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — NextClaud</title>
+  <meta name="description" content="Contact NextClaud for demos, sales enquiries, and support. We're here to help you get started on WhatsApp Business API.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="NextClaud home">
+        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="32" width="111">
+      </a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="https://app.nextclaud.com/login">Log in</a>
+        <a class="btn btn-primary" href="contact.html">Book a demo</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav container" id="mobile-nav">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--with-art">
+      <div class="container">
+        <div class="meta-partner">NextClaud × Meta WhatsApp Business Platform</div>
+        <h1>Contact us</h1>
+        <p class="lead">We're here to help and answer any questions you might have. Reach out for demos, sales, partnerships, or support.</p>
+        <img class="page-hero-art graphic" src="assets/graphics/graphic-contact.svg" alt="Contact NextClaud" width="360" height="280">
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+        <div class="contact-hero-grid">
+          <article class="contact-info-card">
+            <div class="icon">📍</div>
+            <h3>Office</h3>
+            <p>
+              NextClaud<br>
+              Suit #114, 1st Floor<br>
+              Siddiq Trade Center, Lahore, Pakistan
+            </p>
+          </article>
+          <article class="contact-info-card highlight">
+            <div class="icon">✉️</div>
+            <h3>Email</h3>
+            <p><a href="mailto:support@nextclaud.com">support@nextclaud.com</a></p>
+          </article>
+          <article class="contact-info-card">
+            <div class="icon">📞</div>
+            <h3>Phone &amp; WhatsApp</h3>
+            <p>
+              <a href="tel:+923368527111">+92 336 8527 111</a><br>
+              <a href="https://wa.me/923368527111" target="_blank" rel="noopener">Message us on WhatsApp</a>
+            </p>
+          </article>
+        </div>
+
+        <div class="contact-layout">
+          <div>
+            <div class="section-head left">
+              <h2>How we can help</h2>
+            </div>
+            <ul class="check-list">
+              <li><strong>Book a demo</strong> — 20-minute walkthrough of inbox, templates, and broadcasts</li>
+              <li><strong>Sales enquiry</strong> — Pricing, enterprise plans, and managed messaging</li>
+              <li><strong>Onboarding support</strong> — Help connecting your WhatsApp number</li>
+              <li><strong>Partnerships</strong> — Agency and reseller programmes</li>
+              <li><strong>Technical questions</strong> — API, webhooks, and integrations</li>
+            </ul>
+            <p style="margin-top:1.5rem;color:var(--nc-muted);font-size:0.92rem">
+              Existing customers: log in to <a href="https://app.nextclaud.com" style="color:var(--nc-teal)">app.nextclaud.com</a> for in-app support.
+            </p>
+            <div class="contact-side-art">
+              <img class="graphic" src="assets/graphics/graphic-support.svg" alt="Support team" width="360" height="260">
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <div class="contact-form-header">
+              <h2>Get in touch</h2>
+              <p style="margin:0.35rem 0 0;opacity:0.9;font-size:0.88rem">Fill in the form and we'll respond within 1 business day.</p>
+            </div>
+            <form class="contact-form" id="contact-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Full name *</label>
+                  <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-field">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+44 ...">
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="email">Work email *</label>
+                <input type="email" id="email" name="email" required placeholder="you@company.com">
+              </div>
+              <div class="form-field">
+                <label for="interest">I'm interested in</label>
+                <select id="interest" name="interest">
+                  <option value="demo">Booking a demo</option>
+                  <option value="trial">Starting a free trial</option>
+                  <option value="enterprise">Enterprise / custom plan</option>
+                  <option value="managed">Managed messaging buckets</option>
+                  <option value="partner">Agency / partner programme</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required placeholder="Tell us about your business and WhatsApp use case..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark" style="width:100%">Send message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Before you reach out</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" type="button">How quickly do you respond? <span>+</span></button>
+            <div class="faq-answer">We aim to reply to all enquiries within one business day. Demo requests are typically scheduled within 2–3 business days.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Do you offer onboarding calls? <span>+</span></button>
+            <div class="faq-answer">Yes. Every demo includes a live walkthrough. Growth and Enterprise customers receive hands-on onboarding to connect WhatsApp and configure templates.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">I'm an existing customer — where do I get support? <span>+</span></button>
+            <div class="faq-answer">Log in at app.nextclaud.com and contact support@nextclaud.com from your registered email. Include your workspace name for faster help.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a href="index.html" class="brand brand--footer" aria-label="NextClaud home">
+        <img src="assets/nextclaud-logo-light.png" alt="NextClaud" class="brand__logo" height="28" width="97">
+      </a>
+      <span class="meta-badge">✓ Meta WhatsApp Business Platform</span>
+    </div>
+    <div class="container footer-grid">
+      <div><p style="font-size:0.88rem;margin:0">Questions? We're happy to help you get started on WhatsApp.</p></div>
+      <div><h4>Product</h4><ul><li><a href="services.html">Services</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy-policy.html">Privacy</a></li><li><a href="terms-and-conditions.html">Terms</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:support@nextclaud.com">support@nextclaud.com</a></li><li><a href="tel:+923368527111">+92 336 8527 111</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 NextClaud. All rights reserved.</span></div>
+  </footer>
+  <a class="wa-float" href="https://wa.me/923368527111" target="_blank" rel="noopener">💬 Talk to us</a>
+  <script src="script.js"></script>
+</body>
+</html>

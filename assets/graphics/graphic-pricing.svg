@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" fill="none" role="img" aria-label="Transparent pricing">
+  <rect x="20" y="20" width="100" height="160" rx="14" fill="#fff" stroke="#e9edef"/>
+  <rect x="140" y="10" width="100" height="170" rx="14" fill="#fff" stroke="#128c7e" stroke-width="2"/>
+  <rect x="260" y="20" width="100" height="160" rx="14" fill="#fff" stroke="#e9edef"/>
+  <rect x="380" y="30" width="80" height="150" rx="14" fill="#111b21"/>
+  <text x="190" y="50" text-anchor="middle" fill="#128c7e" font-family="system-ui,sans-serif" font-size="10" font-weight="700">POPULAR</text>
+  <text x="70" y="90" text-anchor="middle" fill="#111b21" font-family="system-ui,sans-serif" font-size="22" font-weight="800">$29</text>
+  <text x="190" y="90" text-anchor="middle" fill="#128c7e" font-family="system-ui,sans-serif" font-size="22" font-weight="800">$59</text>
+  <text x="310" y="90" text-anchor="middle" fill="#111b21" font-family="system-ui,sans-serif" font-size="22" font-weight="800">$99</text>
+  <text x="420" y="100" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="12" font-weight="700">Custom</text>
+</svg>

@@ -1,775 +1,386 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <!-- <link rel="dns-prefetch preconnect" href="https://www.googletagmanager.com" crossorigin> -->
-    <!-- <link rel="dns-prefetch preconnect" href="https://connect.facebook.net" crossorigin> -->
-    <link rel="dns-prefetch preconnect" href="https://www.reviewplc.com" crossorigin>
-
-    <!-- <link rel="preconnect" href="https://www.googletagmanager.com"> -->
-    <!-- <link rel="preconnect" href="https://connect.facebook.net"> -->
-    <link rel="preconnect" href="https://www.reviewplc.com/">
-
-
-    <link rel="preload" href="assets/images/nextclaud-logo.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="assets/images/whatsapp-icon.webp" as="image" fetchpriority="high" media="(max-width: 768px)" />
-
-
-    <link rel="preload" href="assets/images/webp/top-img.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="assets/images/webp/MBP-Badge-Dark-backgrounds@4x.webp" as="image" fetchpriority="high" />
-
-
-
-    <!-- <link rel="preload" href="" as="script" crossorigin> -->
-
-    <!-- <link rel="preload" href="" as="script"> -->
-
-
-    <meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="title" content="Next Claud">
-
-    <meta name="description" content="">
-
-    <meta name="keywords" content="Next Claud">
-
-    <meta name="author" content="">
-
-    <!-- Mobile Metas -->
-
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-
-    <!-- Site Metas -->
-
-    <title>Next Claud</title>
-
-
-    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
-
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
-
-    <!-- <link rel="stylesheet" href="assets/fontawesome/css/all.slim.min.css"/> -->
-
-    <!-- <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.min.css"/> -->
-    <!-- <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css"/> -->
-
-    <!-- <link rel="stylesheet" href="assets/fonts/fonts.slim.min.css" /> -->
-
-    <!-- <link rel="stylesheet" href="assets/css/styles.slim.min.css" /> -->
-
-    <!-- <link rel="stylesheet" href="assets/css/responsive.slim.min.css" /> -->
-
-    <link rel="stylesheet" href="assets/css/combined.slim.min.css?v=13" />
-
-    <!-- Canonical -->
-    <link rel="canonical" href="">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextClaud — Official WhatsApp Business API Platform</title>
+  <meta name="description" content="NextClaud helps businesses grow revenue on WhatsApp. Shared inbox, template broadcasts, chatbots, developer API, and transparent pricing — built on Meta's official WhatsApp Business Platform.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="NextClaud home">
+        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="32" width="111">
+      </a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="https://app.nextclaud.com/login">Log in</a>
+        <a class="btn btn-primary" href="contact.html">Book a demo</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://app.nextclaud.com/login">Log in</a>
+      <a href="contact.html">Book a demo</a>
+    </nav>
+  </header>
 
-<body id="wa-page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+  <main>
+    <section class="hero">
+      <div class="decor-blob decor-blob--1" aria-hidden="true"></div>
+      <div class="decor-blob decor-blob--2" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Meta WhatsApp Business Platform · Official API</div>
+          <h1>The official WhatsApp platform for <em>revenue growth</em></h1>
+          <p class="hero-lead">
+            Centralise customer conversations, automate with AI-ready workflows, and send
+            template campaigns at scale — all from one workspace built on Meta's Cloud API.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://app.nextclaud.com/register">Start free trial</a>
+            <a class="btn btn-secondary" href="contact.html">Book a demo</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ 14-day free trial</span>
+            <span>✓ No markup on Meta fees</span>
+            <span>✓ Multi-agent team inbox</span>
+            <span>✓ Developer API &amp; webhooks</span>
+          </div>
+        </div>
+        <div class="hero-visual hero-visual-wrap">
+          <img class="hero-art" src="assets/graphics/hero-platform.svg" alt="NextClaud inbox and broadcast dashboard preview" width="560" height="480">
+          <div class="stat-float">
+            <strong>98%</strong>
+            of WhatsApp messages opened within 3 minutes*
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <div id="newnavbar" class="newnavbar">
-            <div class="container">
-                <div class="top-bar">
-                    <div class="row align-items-center">
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-left">
-                            <!-- <a href="tel:+923317773847" id="Gads-phone-click">
-                            <div class="top-contact-single text-md-left number d-inline-flex align-items-center mb-1">
-                                <div class="top-icon-cont mr-3 mr-xs-2 mr-sm-2"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                                <div>
-                                    <p class="mb-0">Speak to one of our team on:</p>
-                                    <h6 class="mb-0">+92 331 7773 847</h6>
-                                </div>
-                            </div>
-                        </a> -->
-                            <a href="tel:+923368527111" id="Gads-phone-click">
-                                <div class="top-contact-single text-md-left number d-inline-flex align-items-center">
-                                    <div class="top-icon-cont mr-3 mr-xs-2 mr-sm-2"><i class="fa fa-mobile-alt" aria-hidden="true"></i></div>
-                                    <div>
-                                        <p class="mb-0">Speak To One Of Our Team On:</p>
-                                        <h6 class="mb-0">+92 336 8527 111</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-4 text-center text-sm-center d-none d-md-block">
-                            <a class="navbar-brand mr-0" href="index.html">
-                                <img loading="eager" width="300px" height="49px" alt="Next Claud" class="img-fluid" src="assets/images/nextclaud-logo.webp">
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-right">
-                            <a href="mailto:support@nextclaud.com" id="Gads-email-click">
-                                <div class="top-contact-single d-inline-flex align-items-center">
-                                    <div class="top-icon-cont mr-3 mr-xs-2 mr-sm-2"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                                    <div>
-                                        <p class="mb-0">Email Us:</p>
-                                        <h6 class="mb-0">support@nextclaud.com</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr class="d-none d-xs-block my-2">
-                <div class="d-none d-md-none d-lg-none d-xl-none d-sm-block d-xs-block">
-                    <div class="row align-items-center">
-                        <!-- <div class="col-sm-3 col-xs-3">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div> -->
-                        <div class="col-sm-7 col-xs-7 text-center text-sm-center">
-                            <a class="navbar-brand mr-0" href="index.html">
-                                <img loading="eager" width="189px" height="30px" alt="Next Claud" class="img-fluid" src="assets/images/nextclaud-logo.webp">
-                            </a>
-                        </div>
-                        <div class="col-sm-2 col-xs-2"></div>
-                        <div class="col-sm-3 col-xs-3 text-right">
-                            <a href="https://wa.me/923368527111?text=Hello%2C%20I%20need%20help">
-                                <img loading="eager" width="35px" height="35px" alt="Next Claud Whatsapp" class="img-fluid" src="assets/images/whatsapp-icon.webp">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="trust-section bg-soft">
+      <div class="container">
+        <h3>Trusted by businesses across multiple markets</h3>
+        <p>Retail, healthcare, logistics, and agencies use NextClaud to reach customers where they already are.</p>
+        <div class="country-flags">
+          <span>🇬🇧 United Kingdom</span>
+          <span>🇵🇰 Pakistan</span>
+          <span>🇦🇪 UAE</span>
+          <span>🇺🇸 United States</span>
+          <span>🇦🇺 Australia</span>
+          <span>🇮🇳 India</span>
+        </div>
+        <div class="industry-grid">
+          <div class="industry-card"><div class="industry-icon">🛒</div><span>E-commerce</span></div>
+          <div class="industry-card"><div class="industry-icon">🏥</div><span>Healthcare</span></div>
+          <div class="industry-card"><div class="industry-icon">🏠</div><span>Property</span></div>
+          <div class="industry-card"><div class="industry-icon">🚚</div><span>Logistics</span></div>
+          <div class="industry-card"><div class="industry-icon">📢</div><span>Agencies</span></div>
+          <div class="industry-card"><div class="industry-icon">💻</div><span>SaaS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>One platform for every WhatsApp workflow</h2>
+          <p>Explore how NextClaud helps marketing, sales, and support teams work from a single connected number.</p>
+        </div>
+        <div class="feature-tabs" data-tab-group="features">
+          <button type="button" class="feature-tab active" data-tab-for="features" data-tab-target="inbox">Team Inbox</button>
+          <button type="button" class="feature-tab" data-tab-for="features" data-tab-target="broadcast">Broadcasts</button>
+          <button type="button" class="feature-tab" data-tab-for="features" data-tab-target="templates">Templates</button>
+          <button type="button" class="feature-tab" data-tab-for="features" data-tab-target="automation">Automation</button>
+          <button type="button" class="feature-tab" data-tab-for="features" data-tab-target="api">Developer API</button>
         </div>
 
-        <main>
-            <section id="banner" class="pages-header banner">
-                <div class="container">
-                    <div class="row align-items-center flex-sm-xs-column-reverse">
-                        <div class="col-md-7 text-sm-xs-center text-xs-center my-2">
-                            <h1 class="sec-title text-white">All efficient ways to manage your WhatsApp conversations and contacts</h1>
-                            <p class="text-white">Collaborate, automate and scale your WhatsApp conversations</p>
-                            <div class="top-btns">
-                                <a href="whatsapp-business-pricing.html" class="btn pricing btn-trans mx-1">Pricing
-                      </a>
-                                <a href="https://api.whatsapp.com/send/?phone=923368527111&amp;text=I%20want%20to%20have%20a%20demo&amp;app_absent=0" class="btn btn-primary book-demo mx-1" target="_blank">Book a Demo</a>
-                            </div>
-                            <div class="mt-3 text-left text-sm-xs-center text-xs-center">
-                                <img loading="eager" src="assets/images/webp/MBP-Badge-Dark-backgrounds@4x.webp" alt="Meta Partner" style="width:100px;">
-                            </div>
-                        </div>
-                        <div class="col-md-5 my-2 text-xl-right text-lg-right text-md-right text-center">
-                            <img loading="eager" class="container-fluid" src="assets/images/webp/top-img.webp" alt="WhatsApp Business API In Pakistan">
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-
-
-
-            <section class="pb-0">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-12 text-center my-2 mb-5">
-                            <div class="bottom-style-bar small">
-                                <h2 class="sec-title">Features</h2>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/pipeline.webp" alt="Pipeline">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Pipeline</h6>
-                                            </div>
-                                            <p class="sub-head">Harness the power of AI within WhatsApp</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/chat.webp" alt="Chat">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Shared Inbox</h6>
-                                            </div>
-                                            <p class="sub-head">Reach customer on their preferred messaging channel</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/message.webp" alt="Message">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Broadcasting</h6>
-                                            </div>
-                                            <p class="sub-head">Collaborate with team members effectivly</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/roboto.webp" alt="Roboto">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Chatbot</h6>
-                                            </div>
-                                            <p class="sub-head">Scale customer experiences,not your team size</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/automessage.webp" alt="Automessage">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Automated Messages</h6>
-                                            </div>
-                                            <p class="sub-head">Send sequence of messages at intervals on WhatsApp</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/sequence.webp" alt="Sequence">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Sequence</h6>
-                                            </div>
-                                            <p class="sub-head">Launch Marketing campaigns at scale</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/form.webp" alt="Form">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Forms/Flows</h6>
-                                            </div>
-                                            <p class="sub-head">Convert leads to deals using CTWA</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/store-alt.webp" alt="Store Alt">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Catalog Ordering</h6>
-                                            </div>
-                                            <p class="sub-head">Automate payment collections on WhatsApp</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/calendar-day.webp" alt="Calender Day">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Appointment Bookings</h6>
-                                            </div>
-                                            <p class="sub-head">Setup product catalogs and start selling on WhatsApp in no time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-lg-1-5 text-center my-2">
-                                    <div class="feature-box equal-height">
-                                        <div class="icon-box mb-4 mx-auto">
-                                            <img width="60px" height="60px" class="img-fluid mx-auto" src="assets/images/webp/phone-call.webp" alt="Phone Call">
-                                        </div>
-                                        <div>
-                                            <div class="bottom-grey-bar small text-center">
-                                                <h6 class="head mb-0">Calls Tracking</h6>
-                                            </div>
-                                            <p class="sub-head">Setup product catalogs and start selling on WhatsApp in no time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="pb-0">
-                <div class="container">
-                    <div class="row align-items-center flex-sm-xs-column-reverse">
-                        <div class="col-md-6 text-sm-xs-center text-xs-center my-2">
-                            <div class="bottom-style-bar">
-                                <h2 class="sec-title">25+ App Integrations at one place</h2>
-                            </div>
-                            <p>Automate your notification, alerts, and nurturing messages. Send appointment reminders, feedback requests, ecommerce order alerts, lead qualification, nurturing & promotion to your customers.</p>
-                            <!--<div class="top-btns">
-                                <a href="https://whatsapp.nextlogics.net/Profile/signuppage" class="btn btn-primary book-demo mx-1" target="_blank">Get Started</a>
-                            </div>-->
-                        </div>
-                        <div class="col-md-6 my-2 text-xl-right text-lg-right text-md-right text-center">
-                            <img class="container-fluid" src="assets/images/webp/apps.webp" alt="Apps">
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="bg-grey">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center my-2">
-                            <div class="bottom-style-bar">
-                                <h2 class="sec-title">Explore our tools</h2>
-                            </div>
-                            <p>Drive Marketing, Sales & Support interactions on the World's most popular social platforms</p>
-                            <div class="mb-4">
-                                <a href="https://api.whatsapp.com/send/?phone=923368527111&amp;text=I%20want%20to%20have%20a%20demo&amp;app_absent=0" target="_blank">Book a Demo</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-12 my-2">
-                            <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
-                                <div class="bottom-style-bar small">
-                                    <h3 class="sec-title-small">Unify customer data</h3>
-                                </div>
-                                <p>Get all your leads and customers data from phone calls, website, lead platforms at one place</p>
-                                <div class="count-img mt-2">
-                                    <img class="img-fluid" src="assets/images/webp/big_image.webp" alt="Unify Customer Dataine">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 my-2">
-                            <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
-                                <div class="bottom-style-bar small">
-                                    <h3 class="sec-title-small">Trigger-based engagement</h3>
-                                </div>
-                                <p>Create automated campaigns that can be triggered on text, date, time, number and more.</p>
-                                <div class="count-img mt-2">
-                                    <img class="img-fluid" src="assets/images/webp/2nd_image.webp" alt="Trigger Based Engagement">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 my-2">
-                            <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
-                                <div class="bottom-style-bar small">
-                                    <h3 class="sec-title-small">No-code Chatbot builder</h3>
-                                </div>
-                                <p>Create a seamless interactive Chat flow for your users on WhatsApp</p>
-                                <div class="count-img mt-2">
-                                    <img class="img-fluid" src="assets/images/webp/3rd_image.webp" alt="No-Code Chatbot Builder">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 my-2">
-                            <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
-                                <div class="bottom-style-bar small">
-                                    <h3 class="sec-title-small">Shared chat inbox</h3>
-                                </div>
-                                <p>Collaborate with colleagues and keep on top of your workload</p>
-                                <div class="count-img mt-2">
-                                    <img class="img-fluid" src="assets/images/webp/4th_image.webp" alt="Shared Chat Inbox">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 my-2">
-                            <div class="bg-white p-5 p-sm-4 p-xs-3 equal-height text-sm-xs-center text-xs-center">
-                                <div class="bottom-style-bar small">
-                                    <h3 class="sec-title-small">Powerful Insights</h3>
-                                </div>
-                                <p>Get actionable insights on your team performance, customer interactions, promotional campaigns</p>
-                                <div class="count-img mt-2">
-                                    <img class="img-fluid" src="assets/images/webp/6th_image.webp" alt="Powerful Insights">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="pb-0">
-                <div class="container">
-                    <div class="row align-items-center flex-sm-xs-column-reverse">
-                        <div class="col-md-6 text-sm-xs-center text-xs-center my-2">
-                            <div class="bottom-style-bar">
-                                <h2 class="sec-title">Ready modules to save your cost</h2>
-                            </div>
-                            <p>Save your money by using ready to use modules to book appointments, e-commerce catalog ordering and find nearby stores finder.</p>
-                        </div>
-                        <div class="col-md-6 my-2 text-xl-right text-lg-right text-md-right text-center">
-                            <img class="container-fluid" src="assets/images/webp/modules.webp" alt="Modules">
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="pb-0">
-                <div class="container">
-                    <div class="gradient-bg round-bg p-4">
-                        <div class="row align-items-center flex-sm-xs-column-reverse">
-                            <div class="col-md-6 text-sm-xs-center text-xs-center my-2">
-                                <div class="px-5">
-                                    <div class="bottom-style-bar small mb-4">
-                                        <h2 class="sec-title">Start making the most of WhatsApp !</h2>
-                                    </div>
-                                    <div>
-                                        <a href="https://api.whatsapp.com/send/?phone=923368527111&amp;text=I%20want%20to%20have%20a%20demo&amp;app_absent=0" class="btn btn-primary book-demo mx-1" target="_blank">Book a Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 my-2 text-xl-right text-lg-right text-md-right text-center">
-                                <img class="container-fluid" src="assets/images/webp/mockup.webp" alt="Mockup">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="clients-section pb-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="below-bar">
-                                <h3 class="grey-text">We're trusted by thousands of companies, including</h3>
-                            </div>
-                            <div class="image-grid mt-3">
-                                <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/iac-logo.webp" alt="Institute for Art & Culture">
-                                <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/cougar-logo.webp" alt="Cougar Brand">
-                                <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/charcoal-logo.webp" alt="Charcoal Brand">
-                                <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/hanif-logo.webp" alt="Hanif Jewellers">
-                                <img loading="lazy" width="200px" height="95px" class="img-fluid" src="assets/images/clients/chenone-logo.webp" alt="ChenOne Brand">
-                            </div>
-                            <div class="inner-section text-center mt-3">
-                                <a class="text-decoration-underline" href="clients.html">View All Clients</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-5 col-md-12">
-                            <img loading="lazy" class="whatsapp-marketing-img" src="assets/images/whatsapp-marketing-img.webp" alt="WhatsApp Business Marketing In Pakistan">
-                        </div>
-                        <div class="col-xl-7 col-lg-7 col-md-12">
-                            <div class="faqs-cont bg-grey px-3 py-xl-2 py-lg-2 pt-md-0 pt-xs-3 pb-md-4 h-100">
-                                <div class="row align-items-center h-100">
-                                    <div class="col-md-3 h-100 py-2">
-                                        <div class="d-flex flex-column justify-content-between align-items-center h-100">
-                                            <div>
-                                                <h3 class="text-xl-right text-lg-right text-md-left text-sm-center">Answers <br>to <br>question <br>you <br>may <br>have...</h3>
-                                            </div>
-                                            <div><a class="text-decoration-underline" href="faqs.html">View all our FAQs</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-9 pl-0 px-sm-3 px-xs-3">
-                                        <div class="vertical-simple-bar">
-                                            <div class="indexfaqs" id="indexfaqs">
-                                                <div class="features-main is-active">
-                                                    <div class="features-main-title">
-                                                        <h6 class="mb-0">What are some of the benefits of using the API?</h6>
-                                                        <div class="faq-btns">
-                                                            <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                            <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- end toggle-title --->
-                                                    <div class="features-main-content">
-                                                        <p>Send messages automatically from your system (CRM, ERP, e-commerce platform).</p>
-                                                        <p>No manual intervention needed for sending OTPs, alerts, or notifications.</p>
-                                                        <p>Reduces human error and saves time.</p>
-                                                        <p class="mb-0">Example: Automatically send an order confirmation immediately after a customer places an order.</p>
-                                                    </div>
-                                                    <!-- end section-toggle-->
-                                                </div>
-                                                <div class="features-main">
-                                                    <div class="features-main-title">
-                                                        <h6 class="mb-0">What is API?</h6>
-                                                        <div class="faq-btns">
-                                                            <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                            <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- end toggle-title --->
-                                                    <div class="features-main-content">
-                                                        <p>An API (Application Programming Interface) is a set of rules and protocols that allows one software application to communicate and interact with another. Think of it as a messenger or bridge between
-                                                            two programs.</p>
-                                                    </div>
-                                                    <!-- end section-toggle-->
-                                                </div>
-                                                <div class="features-main">
-                                                    <div class="features-main-title">
-                                                        <h6 class="mb-0">What Platforms are supported?</h6>
-                                                        <div class="faq-btns">
-                                                            <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                            <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- end toggle-title --->
-                                                    <div class="features-main-content">
-                                                        <p>Browser-based dashboards for managing campaigns and monitoring analytics</p>
-                                                        <p><b>Supported On:</b></p>
-                                                        <p>Chrome, Firefox, Edge, Safari</p>
-                                                        <p><b>Features:</b></p>
-                                                        <p>Sending Messages, WhatsApp messages, emails</p>
-                                                        <p>Scheduling campaigns</p>
-                                                        <p>Viewing reports</p>
-                                                        <p class="mb-0">Managing contacts and templates</p>
-                                                    </div>
-                                                    <!-- end section-toggle-->
-                                                </div>
-
-                                                <div class="features-main">
-                                                    <div class="features-main-title">
-                                                        <h6 class="mb-0">How much does it cost to send a Message?</h6>
-                                                        <div class="faq-btns">
-                                                            <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                            <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- end toggle-title --->
-                                                    <div class="features-main-content">
-                                                        <p>The cost of sending a Message varies depending on the service provider and your chosen plan. Charges may be per message, bundled in a package, or included in subscription plans.</p>
-                                                    </div>
-                                                    <!-- end section-toggle-->
-                                                </div>
-
-                                                <div class="features-main">
-                                                    <div class="features-main-title">
-                                                        <h6 class="mb-0">How do I buy Message credits?</h6>
-                                                        <div class="faq-btns">
-                                                            <span class="open-btn"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="13" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M12.2266 18.5625V8H14.3281V18.5625H12.2266ZM8 14.3281V12.2266H18.5625V14.3281H8Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                            <span class="close-btn"><svg width="26" height="28" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="13" cy="15" r="13" fill="#F3F3F3"></circle>
-                                            <path d="M17.0488 14.2266V16.25H9.95508V14.2266H17.0488Z" fill="#00b7ff"></path>
-                                        </svg></span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- end toggle-title --->
-                                                    <div class="features-main-content">
-                                                        <p><b>After logging in:</b></p>
-                                                        <p>Find "Buy Credits", "Top Up", or "Billing" in the dashboard.</p>
-                                                        <p class="mb-0">Choose how many Message credits you want to buy</p>
-                                                    </div>
-                                                    <!-- end section-toggle-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div class="reviews-inner pb-5">
-                <!-- <script defer src="https://www.reviewplc.com/dashboard1/integrationjs/js/integarioncarouselblack.js"></script> -->
-                <div id="integrationcarouselblack" templateid="6" client_id="263"></div>
+        <div class="feature-panel active" data-panel-for="features" data-panel-id="inbox">
+          <div class="feature-showcase">
+            <div>
+              <h3>Shared inbox for your whole team</h3>
+              <p>One WhatsApp business number, multiple agents. Assign conversations, add tags, and never miss a customer message.</p>
+              <ul>
+                <li>Real-time inbox with delivery &amp; read receipts</li>
+                <li>Contact profiles with opt-in and segment tags</li>
+                <li>Role-based access for owners, admins, and agents</li>
+              </ul>
             </div>
-        </main>
-        <section class="footer-top footer-top-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 text-center">
-                        <div class="row justify-content-center">
-                            <div class="col-md-5 col-sm-6 col-xs-8 mb-3">
-                                <img loading="lazy" class="m-auto img-fluid" src="assets/images/nextclaud-logo-w.webp" alt="Next Claud">
-                            </div>
-                        </div>
-                        <p class="text-white mb-4">Next Claud was founded with the goal of providing an easy-to-use WhatsApp Business Marketing platform. We are a young and ambitious team that is constantly expanding our service.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr class="my-4">
-                    </div>
-                </div>
-                <div class="row">
-                    <!--<div class="col-lg-3 col-md-6 col-sm-6 my-3">
-                        <div class="footer-heading-bar">
-                            <h4 class="mb-0">A Project Of</h4>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-10 col-sm-8 col-xs-10">
-                                <img loading="lazy" width="135px" height="65px" class="img-fluid" src="assets/images/nextlogics-logo.webp" alt="NextLogics">
-                            </div>
-                        </div>
-                    </div>-->
-
-                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
-                        <div class="footer-heading-bar">
-                            <h4 class="mb-0">Registered</h4>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-4 col-sm-4 col-xs-4 text-center">
-                                <img loading="lazy" width="73px" height="83px" class="img-fluid" src="assets/images/secp-logo.webp" alt="SECP">
-                            </div>
-                            <div class="col-md-5 col-sm-5 col-xs-4">
-                                <img loading="lazy" width="87px" height="59px" class="img-fluid" src="assets/images/pakistan-telecommunication-authority.webp" alt="PTA">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
-                        <div class="footer-heading-bar">
-                            <h4 class="mb-0">Review by:</h4>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-7 col-sm-7 col-xs-12">
-                                <img width="132px" height="78px" loading="lazy" class="img-fluid" src="assets/images/review-by-tick-circle.webp" alt="Reviews By TickCircle">
-                            </div>
-                            <div class="col-md-5 col-sm-5 col-xs-12">
-                                <img width="78px" height="78px" loading="lazy" class="img-fluid" src="assets/images/tick-circle-gold-member.webp" alt="TickCircle Gold Member">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
-                        <div class="footer-heading-bar">
-                            <h4 class="mb-0">Get In Touch</h4>
-                        </div>
-                        <div class="mt-3">
-                            <div class="single-contact d-flex">
-                                <div class="mr-3"><i class="fas fa-location-dot"></i></div>
-                                <div>
-                                    <p class="mb-2">Suit #114, 1st Floor Siddiq Trade Center Lahore.</p>
-                                </div>
-                            </div>
-
-                            <!-- <a href="tel:+923317773847" id="Gads-phone-click">
-                            <div class="single-contact d-flex">
-                                <div class="mr-3"><i class="fas fa-phone"></i></div>
-                                <div>
-                                    <p class="mb-2">+92 331 7773 847</p>
-                                </div>
-                            </div>
-                        </a> -->
-
-                            <a href="tel:+923368527111" id="Gads-phone-click">
-                                <div class="single-contact d-flex">
-                                    <div class="mr-3"><i class="fa fa-mobile-alt"></i></div>
-                                    <div>
-                                        <p class="mb-2">+92 336 8527 111</p>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="mailto:support@nextclaud.com" id="Gads-email-click">
-                                <div class="single-contact d-flex">
-                                    <div class="mr-3"><i class="fas fa-envelope"></i></div>
-                                    <div>
-                                        <p class="mb-2">support@nextclaud.com</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mt-2">
-                            <ul class="d-flex list-unstyled flex-wrap footer-social">
-                                <li><a href="https://www.facebook.com/profile.php?id=61592710511240" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                                <!-- <li><a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.pinterest.com/" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
-                            <li><a href="https://www.youtube.com/" aria-label="Youtube"><i class="fab fa-youtube"></i></a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-2 text-xl-left text-lg-left text-md-left text-sm-center text-xs-center">
-                                    <p class="mb-0">Copyright © 2026, Next Claud. All Rights Reserved.</p>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-2 text-xl-right text-lg-right text-md-right text-sm-center text-xs-center">
-                                    <div class="footer-links text-xl-right text-lg-right text-md-right text-sm-center text-xs-center">
-                                        <p class="mb-0"><a href="faqs.html">Faqs</a> | <a href="terms-and-conditions.html">Terms & Conditions</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <div class="fixed-contact-icons">
-            <a href="https://wa.me/923368527111?text=Hello%2C%20I%20need%20help" class="Whatsapp">
-                <div class="fixed-contact-icon-cont"><i class="fab fa-whatsapp"></i>Whatsapp</div>
-            </a>
+            <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-inbox.svg" alt="Team inbox interface" width="400" height="280"></div>
+          </div>
         </div>
+        <div class="feature-panel" data-panel-for="features" data-panel-id="broadcast">
+          <div class="feature-showcase">
+            <div>
+              <h3>Template broadcast campaigns</h3>
+              <p>Send approved marketing and utility templates to contact lists at scale — with sent, delivered, and read tracking.</p>
+              <ul>
+                <li>Contact lists and segment targeting</li>
+                <li>Marketing opt-in enforcement</li>
+                <li>Retry failed sends and campaign analytics</li>
+              </ul>
+            </div>
+            <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-broadcast.svg" alt="Broadcast campaign analytics" width="400" height="280"></div>
+          </div>
+        </div>
+        <div class="feature-panel" data-panel-for="features" data-panel-id="templates">
+          <div class="feature-showcase">
+            <div>
+              <h3>Template management &amp; sync</h3>
+              <p>Create, submit, and sync Meta-approved templates for orders, reminders, OTPs, and promotions.</p>
+              <ul>
+                <li>Variable placeholders for personalisation</li>
+                <li>Category-aware (Marketing, Utility, Authentication)</li>
+                <li>Sync directly from your WhatsApp Business Account</li>
+              </ul>
+            </div>
+            <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-templates.svg" alt="WhatsApp template management" width="400" height="280"></div>
+          </div>
+        </div>
+        <div class="feature-panel" data-panel-for="features" data-panel-id="automation">
+          <div class="feature-showcase">
+            <div>
+              <h3>Chatflows &amp; automated replies</h3>
+              <p>Build no-code chatflows, office-hours auto-replies, and AI-assisted responses to handle common questions 24/7.</p>
+              <ul>
+                <li>Visual chatflow builder</li>
+                <li>Office hours routing</li>
+                <li>AI agent add-on for smart replies</li>
+              </ul>
+            </div>
+            <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-automation.svg" alt="Chatflow automation builder" width="400" height="280"></div>
+          </div>
+        </div>
+        <div class="feature-panel" data-panel-for="features" data-panel-id="api">
+          <div class="feature-showcase">
+            <div>
+              <h3>Developer API &amp; webhooks</h3>
+              <p>Trigger messages from Shopify, your CRM, or custom apps. Receive delivery events via webhooks.</p>
+              <ul>
+                <li>Secure API keys per workspace</li>
+                <li>Template send endpoints</li>
+                <li>E-commerce integration add-on</li>
+              </ul>
+            </div>
+            <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-api.svg" alt="Developer API and webhooks" width="400" height="280"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <section class="bg-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>How our business model works</h2>
+          <p>Transparent platform subscription + Meta's published WhatsApp rates. No hidden markup on message delivery.</p>
+        </div>
+        <div class="model-strip">
+          <article class="model-card">
+            <div class="num">1</div>
+            <h3>Subscribe to NextClaud</h3>
+            <p>Choose a plan for inbox, templates, broadcasts, and API access. Start with a 14-day free trial.</p>
+          </article>
+          <article class="model-card">
+            <div class="num">2</div>
+            <h3>Connect your WhatsApp</h3>
+            <p>Link your Meta Business account via Embedded Signup. Your number, your WABA, your brand.</p>
+          </article>
+          <article class="model-card">
+            <div class="num">3</div>
+            <h3>Meta bills conversations</h3>
+            <p>Template messages are charged by Meta per category and country. We pass through at published rates.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <script src="assets/js/jquery-3.7.1.min.js"></script>
-        <!-- <script src="assets/js/ckeditor.js"></script> -->
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>Built for every team in your business</h2>
+          <p>Whether you sell, support, or market — NextClaud adapts to your role.</p>
+        </div>
+        <div class="role-tabs" data-tab-group="roles">
+          <button type="button" class="role-tab active" data-tab-for="roles" data-tab-target="marketing">Marketing</button>
+          <button type="button" class="role-tab" data-tab-for="roles" data-tab-target="sales">Sales</button>
+          <button type="button" class="role-tab" data-tab-for="roles" data-tab-target="support">Support</button>
+        </div>
+        <div class="role-panel active" data-panel-for="roles" data-panel-id="marketing">
+          <div>
+            <h3>Drive campaigns customers actually open</h3>
+            <p>Launch promotional broadcasts, recover abandoned carts (with opt-in), and measure delivery and read rates — all on WhatsApp.</p>
+            <a class="btn btn-primary" href="pricing.html">View plans</a>
+          </div>
+          <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-marketing.svg" alt="Marketing campaign growth chart" width="360" height="260"></div>
+        </div>
+        <div class="role-panel" data-panel-for="roles" data-panel-id="sales">
+          <div>
+            <h3>Close deals on the channel buyers prefer</h3>
+            <p>Share catalogues, answer product questions in real time, and follow up with template messages after enquiries.</p>
+            <a class="btn btn-primary" href="contact.html">Talk to sales</a>
+          </div>
+          <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-sales.svg" alt="Sales conversations on WhatsApp" width="360" height="260"></div>
+        </div>
+        <div class="role-panel" data-panel-for="roles" data-panel-id="support">
+          <div>
+            <h3>Resolve tickets faster with a shared inbox</h3>
+            <p>Route conversations to the right agent, use quick replies, and keep full message history for every contact.</p>
+            <a class="btn btn-primary" href="https://app.nextclaud.com/register">Start free trial</a>
+          </div>
+          <div class="feature-visual"><img class="graphic" src="assets/graphics/graphic-support.svg" alt="Customer support inbox" width="360" height="260"></div>
+        </div>
+      </div>
+    </section>
 
-        <script src="assets/js/bootstrap.min.js"></script>
+    <section class="bg-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Why businesses choose NextClaud</h2>
+        </div>
+        <div class="compare-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>Capability</th>
+                <th>WhatsApp on phone</th>
+                <th>Generic CRM inbox</th>
+                <th class="highlight">NextClaud</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Multi-agent access</td><td class="cross">✗</td><td class="check">✓</td><td class="highlight check">✓</td></tr>
+              <tr><td>Official Cloud API templates</td><td class="cross">✗</td><td>Limited</td><td class="highlight check">✓</td></tr>
+              <tr><td>Broadcast campaigns</td><td class="cross">✗</td><td class="cross">✗</td><td class="highlight check">✓</td></tr>
+              <tr><td>Developer API &amp; webhooks</td><td class="cross">✗</td><td>Varies</td><td class="highlight check">✓</td></tr>
+              <tr><td>Transparent Meta pricing</td><td>N/A</td><td>Often marked up</td><td class="highlight check">✓</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
 
-        <script src="assets/js/scroll-navbar.js"></script>
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>Integrates with your stack</h2>
+          <p>Connect NextClaud to the tools you already use.</p>
+        </div>
+        <div class="section-illus">
+          <img class="graphic" src="assets/graphics/graphic-integrations.svg" alt="NextClaud connects to Shopify, Stripe, CRM, and webhooks" width="480" height="320">
+        </div>
+      </div>
+    </section>
 
-        <script src="assets/js/script-combined.min.js"></script>
+    <section class="bg-soft" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <h2>Frequently asked questions</h2>
+          <p>Quick answers before you get started.</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" type="button">Do I need the WhatsApp app on my phone? <span aria-hidden="true">+</span></button>
+            <div class="faq-answer">No. NextClaud uses Meta's WhatsApp Business Platform (Cloud API). Your team manages messages from the web inbox after connecting through Meta Embedded Signup.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Who pays for WhatsApp message costs? <span aria-hidden="true">+</span></button>
+            <div class="faq-answer">Meta bills template usage to your WhatsApp Business Account payment method. NextClaud subscription covers the platform only. We do not add markup on Meta's published rates.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Can I use my existing business number? <span aria-hidden="true">+</span></button>
+            <div class="faq-answer">In many cases, yes — if the number can register on WhatsApp Business Platform and is not tied to a personal WhatsApp account. We guide you through setup during onboarding.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Is there a free trial? <span aria-hidden="true">+</span></button>
+            <div class="faq-answer">Yes. Every new workspace starts on a 14-day trial with platform access. Upgrade anytime from Settings → Billing.</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </body>
+    <section>
+      <div class="container">
+        <div class="cta-band cta-band--with-art">
+          <div>
+            <h2>Ready to grow on WhatsApp?</h2>
+            <p>Start your free trial or book a demo with our team. We'll help you connect your number and send your first template.</p>
+            <a class="btn btn-primary" href="https://app.nextclaud.com/register">Start free trial</a>
+            <a class="btn btn-secondary" href="contact.html" style="margin-left:0.5rem;background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:#fff">Book a demo</a>
+          </div>
+          <img src="assets/nextclaud-mark.png" alt="" width="120" height="120" style="justify-self:center;opacity:0.9">
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a href="index.html" class="brand brand--footer" aria-label="NextClaud home">
+        <img src="assets/nextclaud-logo-light.png" alt="NextClaud" class="brand__logo" height="28" width="97">
+      </a>
+      <span class="meta-badge">✓ Meta WhatsApp Business Platform</span>
+    </div>
+    <div class="container footer-grid">
+      <div>
+        <p style="font-size:0.88rem;margin:0">Official WhatsApp Business API platform for teams who want inbox, templates, broadcasts, and developer tools in one place.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="https://app.nextclaud.com/login">Log in</a></li>
+          <li><a href="https://app.nextclaud.com/register">Sign up</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy</a></li>
+          <li><a href="terms-and-conditions.html">Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:support@nextclaud.com">support@nextclaud.com</a></li>
+          <li><a href="tel:+923368527111">+92 336 8527 111</a></li>
+          <li><a href="contact.html">Book a demo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 NextClaud. All rights reserved.</span>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/923368527111" target="_blank" rel="noopener">💬 Talk to us</a>
+  <script src="script.js"></script>
+</body>
 </html>
