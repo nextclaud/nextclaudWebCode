@@ -75,15 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const data = new FormData(contactForm);
-      const name = data.get('name') || '';
-      const email = data.get('email') || '';
-      const phone = data.get('phone') || '';
-      const message = data.get('message') || '';
-      const subject = encodeURIComponent('NextClaud demo request');
-      const body = encodeURIComponent(
-        `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`
-      );
-      window.location.href = `mailto:support@nextclaud.com?subject=${subject}&body=${body}`;
+      const interest = data.get('interest') || 'demo';
+      const params = new URLSearchParams({ enquiry: String(interest) });
+      window.location.href = `https://app.nextclaud.com/login?${params.toString()}`;
     });
   }
 });
