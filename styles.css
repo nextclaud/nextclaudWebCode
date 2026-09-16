@@ -346,14 +346,17 @@ section { padding: 4rem 0; }
 }
 
 /* Pricing */
-.pricing-toggle-wrap { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2rem; }
+.pricing-toggle-wrap {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: 0.75rem 1rem; margin-bottom: 2rem;
+}
 .pricing-toggle {
-  display: inline-flex; padding: 0.25rem; border-radius: 999px;
+  display: inline-flex; flex-wrap: wrap; padding: 0.25rem; border-radius: 999px;
   background: var(--nc-bg); border: 1px solid var(--nc-border);
 }
 .pricing-toggle button {
-  padding: 0.45rem 1rem; border: none; border-radius: 999px;
-  background: transparent; font: inherit; font-weight: 600; font-size: 0.88rem;
+  padding: 0.45rem 0.85rem; border: none; border-radius: 999px;
+  background: transparent; font: inherit; font-weight: 600; font-size: 0.84rem;
   color: var(--nc-muted); cursor: pointer;
 }
 .pricing-toggle button.active { background: var(--nc-teal); color: var(--nc-white); }

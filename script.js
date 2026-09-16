@@ -41,23 +41,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const pricingToggle = document.getElementById('pricing-toggle');
   if (pricingToggle) {
-    const monthlyBtn = pricingToggle.querySelector('[data-billing="monthly"]');
-    const annualBtn = pricingToggle.querySelector('[data-billing="annual"]');
+    const saveBadge = document.getElementById('save-badge');
+    const billingButtons = pricingToggle.querySelectorAll('[data-billing]');
     const priceEls = document.querySelectorAll('[data-price-monthly]');
 
+    const saveBadgeText = {
+      monthly: 'Flexible monthly billing',
+      quarterly: 'Save 10% with quarterly billing',
+      annual: 'Save 20% with annual billing',
+    };
+
     const setBilling = (mode) => {
-      const isAnnual = mode === 'annual';
-      monthlyBtn?.classList.toggle('active', !isAnnual);
-      annualBtn?.classList.toggle('active', isAnnual);
+      billingButtons.forEach((btn) => {
+        btn.classList.toggle('active', btn.dataset.billing === mode);
+      });
+      if (saveBadge) {
+        saveBadge.textContent = saveBadgeText[mode] || saveBadgeText.monthly;
+      }
       priceEls.forEach((el) => {
-        const monthly = el.dataset.priceMonthly;
-        const annual = el.dataset.priceAnnual;
-        el.textContent = isAnnual ? annual : monthly;
+        const price = el.dataset[`price${mode.charAt(0).toUpperCase()}${mode.slice(1)}`]
+          ?? el.dataset.priceMonthly;
+        el.textContent = price;
       });
     };
 
-    monthlyBtn?.addEventListener('click', () => setBilling('monthly'));
-    annualBtn?.addEventListener('click', () => setBilling('annual'));
+    billingButtons.forEach((btn) => {
+      btn.addEventListener('click', () => setBilling(btn.dataset.billing));
+    });
   }
 
   const contactForm = document.getElementById('contact-form');
