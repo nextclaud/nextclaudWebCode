@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none" role="img" aria-label="Developer API">
+  <rect width="400" height="280" rx="20" fill="#111b21"/>
+  <rect x="32" y="32" width="336" height="216" rx="12" fill="#1a262d" stroke="#128c7e" stroke-opacity="0.3"/>
+  <text x="48" y="60" fill="#25d366" font-family="monospace" font-size="11">POST /api/v1/messages/template</text>
+  <text x="48" y="82" fill="#667781" font-family="monospace" font-size="10">{</text>
+  <text x="64" y="98" fill="#128c7e" font-family="monospace" font-size="10">"to": "+923001234567",</text>
+  <text x="64" y="114" fill="#128c7e" font-family="monospace" font-size="10">"template": "order_update",</text>
+  <text x="64" y="130" fill="#128c7e" font-family="monospace" font-size="10">"language": "en_US"</text>
+  <text x="48" y="146" fill="#667781" font-family="monospace" font-size="10">}</text>
+  <rect x="48" y="168" width="120" height="28" rx="8" fill="#128c7e"/>
+  <text x="108" y="186" text-anchor="middle" fill="#fff" font-family="monospace" font-size="10">200 OK</text>
+  <rect x="180" y="168" width="160" height="28" rx="8" fill="#25d366" opacity="0.15" stroke="#25d366"/>
+  <text x="260" y="186" text-anchor="middle" fill="#25d366" font-family="monospace" font-size="10">webhook delivered</text>
+  <circle cx="320" cy="220" r="8" fill="#25d366"/>
+  <circle cx="280" cy="220" r="8" fill="#128c7e" opacity="0.5"/>
+  <circle cx="240" cy="220" r="8" fill="#128c7e" opacity="0.3"/>
+</svg>
