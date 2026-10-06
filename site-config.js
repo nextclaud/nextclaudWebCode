@@ -6,9 +6,10 @@ window.NC_SITE = {
   phoneTel: '+923368527111',
   whatsApp: '923368527111',
   ukSiteUrl: 'https://www.nextclaud.co.uk',
-  appRegisterUrl: 'https://app.nextclaud.com/register?market=pk',
-  appLoginUrl: 'https://app.nextclaud.com/login?market=pk',
+  /** Public CTAs: demo enquiry only (no self-serve signup). */
   appDemoUrl: 'https://app.nextclaud.com/login?market=pk&enquiry=demo',
+  appRegisterUrl: 'https://app.nextclaud.com/login?market=pk&enquiry=demo',
+  appLoginUrl: 'https://app.nextclaud.com/login?market=pk',
   currencySymbol: '$',
   trialCredit: '3'
 };
