@@ -32,6 +32,16 @@ jobs:
           output_location: ""
           skip_app_build: true
 
+      - name: Verify PK pricing on orange-river SWA
+        run: |
+          set -euo pipefail
+          URL="https://orange-river-0b1c33d10.7.azurestaticapps.net/pricing.html"
+          html="$(curl -fsSL "$URL")"
+          echo "$html" | grep -q 'data-plan-price="starter"' || {
+            echo "::error::Deploy finished but orange-river still shows legacy pricing HTML."
+            exit 1
+          }
+
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest

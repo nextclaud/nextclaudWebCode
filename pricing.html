@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pricing — NextClaud</title>
-  <meta name="description" content="Fair, transparent NextClaud pricing. Platform subscription plans with no markup on Meta WhatsApp fees. Start with a 5-day free trial and $3 message credit.">
+  <meta name="description" content="Fair, transparent NextClaud pricing for businesses in Pakistan. Platform plans in USD with no markup on Meta WhatsApp fees. Start with a 5-day free trial and $3 message credit.">
+  <link rel="canonical" href="https://www.nextclaud.com/pricing">
   <link rel="icon" href="assets/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -17,7 +18,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="brand" aria-label="NextClaud home">
-        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="32" width="111">
+        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="40" width="auto">
       </a>
       <nav class="nav-desktop" aria-label="Primary">
         <a href="index.html">Home</a>
@@ -27,15 +28,15 @@
         <a href="contact.html">Contact</a>
       </nav>
       <div class="header-actions">
-        <a class="btn btn-secondary" href="https://app.nextclaud.com/login">Log in</a>
-        <a class="btn btn-primary" href="https://app.nextclaud.com/login?enquiry=demo">Book a demo</a>
+        <a class="btn btn-secondary" href="https://app.nextclaud.com/login?market=pk">Log in</a>
+        <a class="btn btn-primary" href="https://app.nextclaud.com/login?market=pk&enquiry=demo">Book a demo</a>
         <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
       </div>
     </div>
     <nav class="mobile-nav container" id="mobile-nav">
       <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
       <a href="pricing.html">Pricing</a><a href="contact.html">Contact</a>
-      <a href="https://app.nextclaud.com/login">Log in</a>
+      <a href="https://app.nextclaud.com/login?market=pk">Log in</a>
     </nav>
   </header>
 
@@ -72,12 +73,13 @@
               <li>Template management</li>
               <li>Contacts &amp; lists</li>
             </ul>
-            <a class="btn btn-secondary" href="https://app.nextclaud.com/register">Start trial</a>
+            <a class="btn btn-secondary" href="https://app.nextclaud.com/register?market=pk">Start trial</a>
           </article>
 
           <article class="price-card">
             <h3>Starter</h3>
-            <p class="amount">$<span data-price-monthly="39" data-price-quarterly="35" data-price-annual="31">39</span> <small>/ mo</small></p>
+            <p class="amount">$<span data-plan-price="starter">45</span> <small>/ mo</small></p>
+            <p class="price-billed" hidden></p>
             <p class="tagline">Small teams getting started on WhatsApp</p>
             <ul>
               <li>2,000 messages / month</li>
@@ -86,13 +88,14 @@
               <li>Template sync &amp; send</li>
               <li>Email support</li>
             </ul>
-            <a class="btn btn-secondary" href="https://app.nextclaud.com/register">Get started</a>
+            <a class="btn btn-secondary" href="https://app.nextclaud.com/register?market=pk">Get started</a>
           </article>
 
           <article class="price-card featured">
             <span class="price-badge">Most popular</span>
             <h3>Growth</h3>
-            <p class="amount">$<span data-price-monthly="59" data-price-quarterly="53" data-price-annual="47">59</span> <small>/ mo</small></p>
+            <p class="amount">$<span data-plan-price="growth">59</span> <small>/ mo</small></p>
+            <p class="price-billed" hidden></p>
             <p class="tagline">Growing brands with campaigns &amp; API</p>
             <ul>
               <li>10,000 messages / month</li>
@@ -103,30 +106,31 @@
               <li>Chatflows &amp; automation</li>
               <li>Priority support</li>
             </ul>
-            <a class="btn btn-primary" href="https://app.nextclaud.com/register">Get started</a>
+            <a class="btn btn-primary" href="https://app.nextclaud.com/register?market=pk">Get started</a>
           </article>
 
-          <article class="price-card enterprise">
-            <h3>Pro / Enterprise</h3>
-            <p class="amount">Custom</p>
-            <p class="tagline">High-volume senders &amp; agencies</p>
+          <article class="price-card">
+            <h3>Pro</h3>
+            <p class="amount">$<span data-plan-price="pro">99</span> <small>/ mo</small></p>
+            <p class="price-billed" hidden></p>
+            <p class="tagline">High-volume senders &amp; larger teams</p>
             <ul>
-              <li>50,000+ messages / month</li>
-              <li>Unlimited users (fair use)</li>
-              <li>Multiple workspaces</li>
-              <li>AI agent add-on</li>
-              <li>Dedicated onboarding</li>
-              <li>SLA &amp; account manager</li>
+              <li>50,000 messages / month</li>
+              <li>Up to 25 team members</li>
+              <li>Up to 3 WhatsApp numbers</li>
+              <li>Everything in Growth</li>
+              <li>AI agent add-on available</li>
+              <li>Priority support</li>
             </ul>
-            <a class="btn btn-primary" href="contact.html">Contact sales</a>
+            <a class="btn btn-primary" href="https://app.nextclaud.com/register?market=pk">Get started</a>
           </article>
         </div>
 
         <div class="pricing-trust">
-          <span>🔒 Secure checkout via Stripe</span>
-          <span>✓ Cancel anytime</span>
+          <span>🏦 Pay by bank transfer (invoice)</span>
+          <span>✓ Plan changes via platform billing</span>
           <span>✓ No markup on Meta fees</span>
-          <span>💳 Visa · Mastercard · Amex</span>
+          <span>📄 PKR / USD invoicing</span>
         </div>
 
         <p class="pricing-note">
@@ -176,7 +180,7 @@
           </div>
           <div class="faq-item">
             <button class="faq-question" type="button">Can I upgrade or downgrade anytime? <span>+</span></button>
-            <div class="faq-answer">Yes. Upgrade from Settings → Billing via Stripe checkout. Downgrades take effect at the next billing cycle through the Stripe customer portal.</div>
+            <div class="faq-answer">Yes. Request a plan change from Settings → Billing. Invoices are issued in-app; pay by bank transfer as shown on your invoice. Your workspace updates once payment is confirmed.</div>
           </div>
           <div class="faq-item">
             <button class="faq-question" type="button">Do you mark up Meta WhatsApp fees? <span>+</span></button>
@@ -195,7 +199,7 @@
         <div class="cta-band">
           <h2>Start your 5-day free trial</h2>
           <p>No credit card required for trial. Connect WhatsApp and send your first template in minutes.</p>
-          <a class="btn btn-primary" href="https://app.nextclaud.com/register">Start free trial</a>
+          <a class="btn btn-primary" href="https://app.nextclaud.com/register?market=pk">Start free trial</a>
         </div>
       </div>
     </section>
@@ -204,7 +208,7 @@
   <footer class="site-footer">
     <div class="container footer-top">
       <a href="index.html" class="brand brand--footer" aria-label="NextClaud home">
-        <img src="assets/nextclaud-logo-light.png" alt="NextClaud" class="brand__logo" height="44" width="220">
+        <img src="assets/nextclaud-logo.png" alt="NextClaud" class="brand__logo" height="44" width="220">
       </a>
       <span class="meta-badge">✓ Meta WhatsApp Business Platform</span>
     </div>
@@ -217,6 +221,8 @@
     <div class="container footer-bottom"><span>© 2026 NextClaud. All rights reserved.</span></div>
   </footer>
   <a class="wa-float" href="https://wa.me/923368527111" target="_blank" rel="noopener">💬 Talk to us</a>
+  <script src="site-config.js"></script>
+  <script src="includes.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

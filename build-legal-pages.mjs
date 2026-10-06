@@ -80,7 +80,7 @@ function pageShell(title, description, body) {
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="brand" aria-label="NextClaud home">
-        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="32" width="111">
+        <img src="assets/nextclaud-header-logo.png" alt="NextClaud" class="brand__logo" height="40" width="auto">
       </a>
       <nav class="nav-desktop" aria-label="Primary">
         <a href="index.html">Home</a>
@@ -90,8 +90,8 @@ function pageShell(title, description, body) {
         <a href="contact.html">Contact</a>
       </nav>
       <div class="header-actions">
-        <a class="btn btn-secondary" href="https://app.nextclaud.com/login">Log in</a>
-        <a class="btn btn-primary" href="contact.html">Book a demo</a>
+        <a class="btn btn-secondary" href="https://app.nextclaud.com/login?market=uk">Log in</a>
+        <a class="btn btn-primary" href="https://app.nextclaud.com/login?market=uk&enquiry=demo">Book a demo</a>
         <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
       </div>
     </div>
@@ -113,7 +113,7 @@ function pageShell(title, description, body) {
   <footer class="site-footer">
     <div class="container footer-top">
       <a href="index.html" class="brand brand--footer" aria-label="NextClaud home">
-        <img src="assets/nextclaud-logo-light.png" alt="NextClaud" class="brand__logo" height="28" width="97">
+        <img src="assets/nextclaud-logo.png" alt="NextClaud" class="brand__logo" height="44" width="220">
       </a>
       <span class="meta-badge">✓ Meta WhatsApp Business Platform</span>
     </div>
@@ -121,11 +121,13 @@ function pageShell(title, description, body) {
       <div><p style="font-size:0.88rem;margin:0">Official WhatsApp Business API platform for teams who want inbox, templates, broadcasts, and developer tools in one place.</p></div>
       <div><h4>Product</h4><ul><li><a href="services.html">Services</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="https://app.nextclaud.com/login">Log in</a></li></ul></div>
       <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy-policy.html">Privacy</a></li><li><a href="terms-and-conditions.html">Terms</a></li></ul></div>
-      <div><h4>Contact</h4><ul><li><a href="mailto:support@nextclaud.com">support@nextclaud.com</a></li><li><a href="tel:+923368527111">+92 336 8527 111</a></li><li><a href="contact.html">Book a demo</a></li></ul></div>
+      <div><h4>Contact (UK)</h4><ul><li><a href="mailto:info@nextclaud.co.uk">info@nextclaud.co.uk</a></li><li><a href="tel:+447838162607">07838 162607</a></li><li><a href="https://app.nextclaud.com/login?market=uk&enquiry=demo">Book a demo</a></li></ul></div>
     </div>
     <div class="container footer-bottom"><span>© 2026 NextClaud. All rights reserved.</span></div>
   </footer>
-  <a class="wa-float" href="https://wa.me/923368527111" target="_blank" rel="noopener">💬 Talk to us</a>
+  <a class="wa-float" href="https://wa.me/447838162607" target="_blank" rel="noopener">💬 Talk to us</a>
+  <script src="site-config.js"></script>
+  <script src="includes.js"></script>
   <script src="script.js"></script>
 </body>
 </html>`;

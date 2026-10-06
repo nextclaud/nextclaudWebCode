@@ -47,15 +47,14 @@ a { color: inherit; text-decoration: none; }
 .brand { display: inline-flex; align-items: center; }
 .brand__logo {
   display: block;
-  height: 2rem;
+  height: 2.5rem;
   width: auto;
   max-width: 9.5rem;
 }
 .brand--footer .brand__logo {
-  height: auto;
-  max-height: 2.75rem;
+  height: 2.75rem;
   width: auto;
-  max-width: 14rem;
+  max-width: 10.5rem;
 }
 .nav-desktop { display: flex; align-items: center; gap: 1.35rem; }
 .nav-desktop a {
@@ -387,6 +386,12 @@ section { padding: 4rem 0; }
 }
 .price-card .amount small { font-size: 0.88rem; font-weight: 500; color: var(--nc-muted); }
 .price-card .tagline { font-size: 0.82rem; color: var(--nc-muted); margin: 0 0 0.5rem; min-height: 2.5rem; }
+.price-billed {
+  margin: -0.35rem 0 0.5rem;
+  font-size: 0.75rem;
+  color: var(--nc-muted);
+  min-height: 1.1rem;
+}
 .price-card ul { margin: 0.75rem 0 1rem; padding: 0; list-style: none; flex: 1; }
 .price-card li { padding: 0.3rem 0; color: var(--nc-muted); font-size: 0.82rem; }
 .price-card li::before { content: "✓ "; color: var(--nc-teal); font-weight: 700; }
